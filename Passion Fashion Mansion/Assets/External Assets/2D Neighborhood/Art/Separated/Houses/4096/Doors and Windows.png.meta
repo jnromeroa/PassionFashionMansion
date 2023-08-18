@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ea770ca429d99a249b9cc31a2efd27e1
+guid: c56629c727d90904ba2d6299fe132eca
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -164,13 +164,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Glasses_0
+      name: Doors and Windows_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 458
-        width: 47
-        height: 30
+        x: 63
+        y: 3613
+        width: 378
+        height: 242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea7c30bfd5809f54fbcb6d2b60fe3636
-      internalID: 743732854
+      spriteID: e83143d32656e1c4b9272d0be6e9fafc
+      internalID: -2099806787
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glasses_1
+      name: Doors and Windows_1
       rect:
         serializedVersion: 2
-        x: 81
-        y: 456
-        width: 84
-        height: 30
+        x: 571
+        y: 3603
+        width: 676
+        height: 240
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c1e822dd6764ad4eb16dc47a64e5a10
-      internalID: 1593795425
+      spriteID: ba585292250b5b74bb42e21e497979bf
+      internalID: 828446062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glasses_2
+      name: Doors and Windows_2
       rect:
         serializedVersion: 2
-        x: 179
-        y: 420
-        width: 46
-        height: 74
+        x: 1365
+        y: 3313
+        width: 366
+        height: 592
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,20 +220,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d59da396b6553343a43f2de6949e21d
-      internalID: 712932910
+      spriteID: 11026a4d72b89f34199c7c0d5a469a9b
+      internalID: 140851042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glasses_3
+      name: Doors and Windows_3
       rect:
         serializedVersion: 2
-        x: 246
-        y: 430
-        width: 48
-        height: 65
+        x: 1899
+        y: 3391
+        width: 384
+        height: 518
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,20 +241,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e85d68325ed99b4fbe81f51a8b41607
-      internalID: -1521770053
+      spriteID: a65df086f8ad78f478340a358e291658
+      internalID: -772284322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glasses_4
+      name: Doors and Windows_4
       rect:
         serializedVersion: 2
-        x: 321
-        y: 424
-        width: 71
-        height: 71
+        x: 2501
+        y: 3347
+        width: 570
+        height: 566
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,20 +262,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75268eaeebf135a41bc2323616f68cc0
-      internalID: 1374415233
+      spriteID: 2ab56ef6cdbad22459a482839c1cf694
+      internalID: 1676561334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glasses_5
+      name: Doors and Windows_5
       rect:
         serializedVersion: 2
-        x: 424
-        y: 429
-        width: 79
-        height: 64
+        x: 3335
+        y: 3381
+        width: 630
+        height: 514
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcb2b52576c5f2746b05e8519c1dc79f
-      internalID: 1707149299
+      spriteID: dffc013851121b8429d793a51d796525
+      internalID: 1416908071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glasses_6
+      name: Doors and Windows_6
       rect:
         serializedVersion: 2
-        x: 16
-        y: 299
-        width: 79
-        height: 128
+        x: 155
+        y: 2861
+        width: 264
+        height: 430
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,20 +304,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db472d762d235604cbf82d38aeec9963
-      internalID: 1893318333
+      spriteID: 3abf126268abd4f4898c0ef9c50b0e94
+      internalID: 1609947277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glasses_7
+      name: Doors and Windows_7
       rect:
         serializedVersion: 2
-        x: 120
-        y: 306
-        width: 58
-        height: 92
+        x: 501
+        y: 2885
+        width: 198
+        height: 310
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,20 +325,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61b722af7ffa4a847af2c4a840bd47cb
-      internalID: 1239809102
+      spriteID: 627d1cdbccc3001478b1e8c8ca83bd29
+      internalID: 1028546613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glasses_8
+      name: Doors and Windows_8
       rect:
         serializedVersion: 2
-        x: 213
-        y: 323
-        width: 52
-        height: 58
+        x: 769
+        y: 2923
+        width: 176
+        height: 198
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,20 +346,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f75abcd54fbc32a478104cda3f9e8972
-      internalID: -630402465
+      spriteID: e718b8996b8a70142a58dd2fc221c826
+      internalID: 1475621542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glasses_9
+      name: Doors and Windows_9
       rect:
         serializedVersion: 2
-        x: 298
-        y: 324
-        width: 55
-        height: 51
+        x: 1021
+        y: 2947
+        width: 184
+        height: 172
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,293 +367,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e063fd21e618f4b49a72a9bdfdd16940
-      internalID: -570372798
+      spriteID: 01d89cc1f052eb443864776f69c2a2b9
+      internalID: -985954426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glasses_10
+      name: Doors and Windows_10
       rect:
         serializedVersion: 2
-        x: 389
-        y: 324
-        width: 30
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67b1307b248de3848abbd3e5b87865ad
-      internalID: 1360332127
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Glasses_11
-      rect:
-        serializedVersion: 2
-        x: 457
-        y: 327
-        width: 38
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3fcd837a52602645b1a6645abe8bc76
-      internalID: 9659171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Glasses_12
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 220
-        width: 39
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96c3ff623259b5f438e04824c2622887
-      internalID: 1612313717
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Glasses_13
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 204
-        width: 30
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 080025f4449516d4d8bafab45de3faf8
-      internalID: -1890079120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Glasses_14
-      rect:
-        serializedVersion: 2
-        x: 153
-        y: 212
-        width: 55
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 716bc25849162de4894cea9aaea54c1c
-      internalID: -1550419643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Glasses_15
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 211
-        width: 79
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0289a34fe4f7e464ab8cafb39f540312
-      internalID: 1730469957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Glasses_16
-      rect:
-        serializedVersion: 2
-        x: 322
-        y: 212
-        width: 74
-        height: 84
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bfebc2c2a875024e8059d3f0971641a
-      internalID: -1442484823
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Glasses_17
-      rect:
-        serializedVersion: 2
-        x: 412
-        y: 213
-        width: 28
-        height: 57
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2aca506eb7a5d14b897b1b4f69f6520
-      internalID: -1968384913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Glasses_18
-      rect:
-        serializedVersion: 2
-        x: 460
-        y: 210
-        width: 38
-        height: 75
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b85971487ceac1b4e942925386050423
-      internalID: -1264613162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Glasses_19
-      rect:
-        serializedVersion: 2
-        x: 19
-        y: 131
-        width: 54
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9966fd773d2505645a1ee6c3d9c7cc11
-      internalID: 908942306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Glasses_20
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 137
-        width: 79
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 062ce052f5779b6479637e7e0c0618b2
-      internalID: -1650721388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Glasses_21
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 127
-        width: 74
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba1b2e82999be534c89b7b01246cf14f
-      internalID: -1558888888
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Glasses_22
-      rect:
-        serializedVersion: 2
-        x: 455
-        y: 128
-        width: 17
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74f40d8ec59d01d4d84a86b3f9c2c782
-      internalID: 44219905
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Glasses_23
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 24
+        x: 1301
+        y: 2947
         width: 100
-        height: 77
+        height: 132
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -661,20 +388,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4be77523f2ba08946a498f42a66c1486
-      internalID: -1831074945
+      spriteID: 94c8eba87d0cdab429c615d466545676
+      internalID: -1157311570
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glasses_24
+      name: Doors and Windows_11
       rect:
         serializedVersion: 2
-        x: 207
-        y: 15
-        width: 107
-        height: 88
+        x: 1493
+        y: 2957
+        width: 130
+        height: 122
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -682,20 +409,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4899d0f5e740bf047b149bd15019756a
-      internalID: 1215994868
+      spriteID: aab438704fdae594e8a384dca2fc467f
+      internalID: 1716709306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glasses_25
+      name: Doors and Windows_12
       rect:
         serializedVersion: 2
-        x: 422
-        y: 10
-        width: 52
-        height: 92
+        x: 1717
+        y: 2683
+        width: 432
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -703,8 +430,491 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0869baa5030a5d546b0ca02a211221b0
-      internalID: 1125269916
+      spriteID: db921a4592d0a0a4fa4fec8688f2ea7c
+      internalID: 118319451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_13
+      rect:
+        serializedVersion: 2
+        x: 2291
+        y: 2733
+        width: 638
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a3611cad2f8214d837b56ce6cdc76e
+      internalID: -221188491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_14
+      rect:
+        serializedVersion: 2
+        x: 3093
+        y: 2651
+        width: 592
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170622db03104324b964da67af57e429
+      internalID: -1902131728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_15
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 2663
+        width: 136
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d0516dfcbc44d2478ae57318d8b4e70
+      internalID: -1564772057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_16
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 2117
+        width: 304
+        height: 602
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cc9bcbf4a628874896b989fb8be4fc8
+      internalID: 1481146489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_17
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 2145
+        width: 220
+        height: 452
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03727434996ea694b9a3de3c725bcab0
+      internalID: 1608315985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_18
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 2136
+        width: 592
+        height: 669
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7572e687430b7994a9b9d03a88ed7ffd
+      internalID: -1215429443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_19
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 2125
+        width: 630
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b197439a62f75754f85be953371f3442
+      internalID: -1310639919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_20
+      rect:
+        serializedVersion: 2
+        x: 2479
+        y: 2131
+        width: 434
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0f8bc798a99904dbace5f705df8f2d
+      internalID: -118061306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_21
+      rect:
+        serializedVersion: 2
+        x: 3205
+        y: 2067
+        width: 244
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6063b48c68c29e04ebb54a4ba47a1c9d
+      internalID: 1845717460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_22
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 2199
+        width: 310
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 602b1eb8f86a5fb49a60d9fd6a49a89b
+      internalID: -1556486350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_23
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1227
+        width: 805
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a26cce75120914e97ae39baf01fe07
+      internalID: -112287839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_24
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1158
+        width: 850
+        height: 699
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b14201b9f12554c9863113ed427ff8
+      internalID: -706492215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_25
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 1115
+        width: 416
+        height: 740
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e8c6abdd402e0458e9dbd39e250910
+      internalID: 2050299021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_26
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 1595
+        width: 98
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddea4b8ec8752014e9108e2754bea658
+      internalID: -1808321498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_27
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 1057
+        width: 704
+        height: 674
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6306f93dce413cb41b9e1ae5ab8b0e3a
+      internalID: 1698750437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_28
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 1425
+        width: 98
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800c8d3a94a38a94699e152affeb996d
+      internalID: -1261885696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_29
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 1205
+        width: 64
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 127f99ec60c91014ea35d8f769c3aeae
+      internalID: -1729112037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_30
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 191
+        width: 265
+        height: 660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17647d3ed3d6b254f89270ea4fd65d14
+      internalID: -616026313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_31
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 195
+        width: 398
+        height: 728
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83776da40b62a14b9ac187968dd8e05
+      internalID: 179328044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_32
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 191
+        width: 369
+        height: 800
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c1169db79ff8d4c9910c013ca951db
+      internalID: -140686118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_33
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 133
+        width: 496
+        height: 856
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7e14c742f31a54d9123d08053efe33
+      internalID: 820556953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_34
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 131
+        width: 444
+        height: 894
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6b2ad3f5ebaf64da438308474f28ba
+      internalID: 612694399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doors and Windows_35
+      rect:
+        serializedVersion: 2
+        x: 3253
+        y: 215
+        width: 646
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166f26e4080bcf5459b56ee2876e0bc7
+      internalID: -854850284
       vertices: []
       indices: 
       edges: []
@@ -720,32 +930,42 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Glasses_12: 1612313717
-      Glasses_5: 1707149299
-      Glasses_14: -1550419643
-      Glasses_11: 9659171
-      Glasses_21: -1558888888
-      Glasses_10: 1360332127
-      Glasses_15: 1730469957
-      Glasses_9: -570372798
-      Glasses_8: -630402465
-      Glasses_18: -1264613162
-      Glasses_6: 1893318333
-      Glasses_20: -1650721388
-      Glasses_19: 908942306
-      Glasses_3: -1521770053
-      Glasses_13: -1890079120
-      Glasses_4: 1374415233
-      Glasses_23: -1831074945
-      Glasses_1: 1593795425
-      Glasses_0: 743732854
-      Glasses_17: -1968384913
-      Glasses_25: 1125269916
-      Glasses_22: 44219905
-      Glasses_7: 1239809102
-      Glasses_24: 1215994868
-      Glasses_2: 712932910
-      Glasses_16: -1442484823
+      Doors and Windows_24: -706492215
+      Doors and Windows_32: -140686118
+      Doors and Windows_30: -616026313
+      Doors and Windows_8: 1475621542
+      Doors and Windows_20: -118061306
+      Doors and Windows_35: -854850284
+      Doors and Windows_2: 140851042
+      Doors and Windows_6: 1609947277
+      Doors and Windows_22: -1556486350
+      Doors and Windows_5: 1416908071
+      Doors and Windows_16: 1481146489
+      Doors and Windows_11: 1716709306
+      Doors and Windows_12: 118319451
+      Doors and Windows_13: -221188491
+      Doors and Windows_25: 2050299021
+      Doors and Windows_27: 1698750437
+      Doors and Windows_7: 1028546613
+      Doors and Windows_15: -1564772057
+      Doors and Windows_18: -1215429443
+      Doors and Windows_23: -112287839
+      Doors and Windows_26: -1808321498
+      Doors and Windows_31: 179328044
+      Doors and Windows_1: 828446062
+      Doors and Windows_0: -2099806787
+      Doors and Windows_9: -985954426
+      Doors and Windows_28: -1261885696
+      Doors and Windows_14: -1902131728
+      Doors and Windows_21: 1845717460
+      Doors and Windows_33: 820556953
+      Doors and Windows_10: -1157311570
+      Doors and Windows_34: 612694399
+      Doors and Windows_3: -772284322
+      Doors and Windows_19: -1310639919
+      Doors and Windows_4: 1676561334
+      Doors and Windows_29: -1729112037
+      Doors and Windows_17: 1608315985
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
