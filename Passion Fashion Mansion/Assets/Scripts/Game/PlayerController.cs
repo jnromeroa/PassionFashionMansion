@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
             if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(input.x * gridSize, 0f, 0f), 0.4f, unwalkableLayer))
             {
                 movePoint.position += new Vector3(input.x * gridSize, 0f, 0f);
-
+                lastMovement = input;
             }
             return;
         }
@@ -48,6 +48,7 @@ public class PlayerController : MonoBehaviour
             if (!Physics2D.OverlapCircle(movePoint.position + new Vector3(0f, input.y * gridSize, 0f), 0.4f, unwalkableLayer))
             {
                 movePoint.position += new Vector3(0f, input.y * gridSize, 0f);
+                lastMovement = input;
             }
         }
     }
@@ -56,8 +57,9 @@ public class PlayerController : MonoBehaviour
     {
         t.position = Vector2.MoveTowards(transform.position, movePoint.position, speed * Time.deltaTime);
     }
-    public void Interact()
+    public void Interact(InputAction.CallbackContext ctx)
     {
+        if (!ctx.performed) return;
         Vector3 pointInFront = new Vector3(lastMovement.x * gridSize, lastMovement.y * gridSize, 0);
         Collider2D interactedWith = Physics2D.OverlapCircle(t.position +pointInFront , 0.4f, interactableLayer);
         if (interactedWith)
@@ -72,6 +74,8 @@ public class PlayerController : MonoBehaviour
     }
     void CheckInteractable(Collider2D interactedWith)
     {
-
+        IInteractable interactable = interactedWith.GetComponent<IInteractable>();
+        if (interactable == null) return;
+        interactable.Interact();
     }
 }

@@ -2,17 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogueTrigger : MonoBehaviour
+public class DialogueTrigger : MonoBehaviour, IInteractable
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] Dialogue dialogue;
 
-    // Update is called once per frame
-    void Update()
+    public void Interact()
     {
-        
+        TriggerDialogue();
+    }
+    public void TriggerDialogue()
+    {
+
+        if (DialogueManager.instance.inProgress)
+        {
+            DialogueManager.instance.DisplayNextSentence();
+        }
+        else
+        {
+            DialogueManager.instance.StartDialogue(dialogue);
+        }
     }
 }
