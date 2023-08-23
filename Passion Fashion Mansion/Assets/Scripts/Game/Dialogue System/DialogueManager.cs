@@ -10,14 +10,16 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] TMP_Text nameTxt;
     [SerializeField] TMP_Text dialogueTxt;
     private Queue<string> sentences = new Queue<string>();
-    public bool inProgress;
+    [HideInInspector] public bool inProgress;
+    bool endManually;
     private void Awake()
     {
         instance = this;
     }
-    public void StartDialogue(Dialogue dialogue)
+    public void StartDialogue(Dialogue dialogue, bool endManually)
     {
         dialogueBox.SetActive(true);
+        this.endManually = endManually;
         sentences.Clear();
         inProgress = true;
         nameTxt.text = dialogue.name;
@@ -29,16 +31,21 @@ public class DialogueManager : MonoBehaviour
     }
     public void DisplayNextSentence()
     {
-        if (sentences.Count == 0)
+        if (sentences.Count == 0 )
         {
-            EndDialogue();
-            return;
+            if (!endManually)
+            {
+                EndDialogue();
+                return;
+            }
+            else return;
+
         }
         dialogueTxt.text = sentences.Dequeue();
         
     }
 
-    private void EndDialogue()
+    public void EndDialogue()
     {
         sentences.Clear();
         dialogueBox.SetActive(false);

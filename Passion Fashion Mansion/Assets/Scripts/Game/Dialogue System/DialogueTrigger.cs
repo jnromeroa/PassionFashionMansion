@@ -1,16 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Events;
 public class DialogueTrigger : MonoBehaviour, IInteractable
 {
-    [SerializeField] Dialogue dialogue;
-
-    public void Interact()
+    [SerializeField] protected Dialogue dialogue;
+    public virtual void Interact()
     {
-        TriggerDialogue();
+        TriggerDialogue(false);
     }
-    public void TriggerDialogue()
+    public virtual void TriggerDialogue(bool endManually)
     {
 
         if (DialogueManager.instance.inProgress)
@@ -19,7 +18,7 @@ public class DialogueTrigger : MonoBehaviour, IInteractable
         }
         else
         {
-            DialogueManager.instance.StartDialogue(dialogue);
+            DialogueManager.instance.StartDialogue(dialogue, endManually);
         }
     }
 }

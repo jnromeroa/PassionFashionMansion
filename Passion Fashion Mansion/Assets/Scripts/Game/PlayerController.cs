@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     }
     private void Update()
     {
+        if (DialogueManager.instance.inProgress) return;
         input = pInput.actions[moveStr].ReadValue<Vector2>();
         MovePoint();
         Move();
